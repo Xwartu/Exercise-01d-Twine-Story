@@ -1,164 +1,328 @@
 {
-    "passages": [
-      {
-        "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Road",
-        "pid": "1",
-        "position": {
-          "x": "412",
-          "y": "189"
+  "passages": [
+    {
+      "text": "You are standing at a fork in the road. In front of you is three ways to go: To the left to a quaint little Hamlet, to the right a foreboding Fortress, and lastly the way from whence you came. \n\n[[Go North->Fork]]\n[[Go East->The Fortress]]\n[[Go South->Homestead]]\n[[Go West->Hamlet]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go East",
+          "link": "The Fortress",
+          "pid": "2"
+        },
+        {
+          "name": "Go South",
+          "link": "Homestead",
+          "pid": "3"
+        },
+        {
+          "name": "Go West",
+          "link": "Hamlet",
+          "pid": "4"
         }
-      },
-      {
-        "text": "You are in open forest, with a deep valley to one side.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Road]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Forest",
-        "pid": "2",
-        "position": {
-          "x": "187",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are inside a building, a well house for a large spring.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Road]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Road",
-            "pid": "1"
-          }
-        ],
-        "name": "Building",
-        "pid": "3",
-        "position": {
-          "x": "337",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[[Go North->Road]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Valley",
-        "pid": "4",
-        "position": {
-          "x": "487",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[[Go North->Forest]]\n[[Go East->Road]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Hill",
-        "pid": "5",
-        "position": {
-          "x": "637",
-          "y": "339"
-        }
+      ],
+      "name": "Fork",
+      "pid": "1",
+      "position": {
+        "x": "704",
+        "y": "469"
       }
-    ],
-    "name": "Adventure",
-    "startnode": "1",
-    "creator": "Twine",
-    "creator-version": "2.3.7",
-    "ifid": "1A8FFB75-8072-4382-BCAF-ADFA65B09385"
-  }
+    },
+    {
+      "text": "The fortress looms above you, it's impassable stone face stares deeply into your soul. Having seen this fortress upclose for the first time in your life, being this close has finally let it have an effect on you. You cannot muster the courage to go inside it.\n\nYet you must. After a few moments of collecting your thoughts, you decide to go forward.\n\nBefore you lies two equally broad oak doors, complete with black steel trim. Both doors are seemingly unguarded and both have their own respective drawbridges with a moat. The doors are equidistant from you and there is one to your Left, and one to your Right.\n\nOf course, if you decide once and and for all you really can't do it, you can return to the Fork in the road.\n\n(Please enter a direction to continue.)\n\n[[Go North->The Fortress]]\n[[Go East->The Right Door]]\n[[Go South->The Fork?]]\n[[Go West->The Left Door]]\n\n",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "The Fortress",
+          "pid": "2"
+        },
+        {
+          "name": "Go East",
+          "link": "The Right Door",
+          "pid": "5"
+        },
+        {
+          "name": "Go South",
+          "link": "The Fork?",
+          "pid": "7"
+        },
+        {
+          "name": "Go West",
+          "link": "The Left Door",
+          "pid": "6"
+        }
+      ],
+      "name": "The Fortress",
+      "pid": "2",
+      "position": {
+        "x": "439",
+        "y": "348"
+      }
+    },
+    {
+      "text": "The way back only leads to your small farmstead, from which your adventure began! Unfortunately, that means the only way you can go is forward.\n\n[[Go North->Fork]]\n[[Go East->Fork]]\n[[Go South->Fork]]\n[[Go West->Fork]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go East",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go South",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go West",
+          "link": "Fork",
+          "pid": "1"
+        }
+      ],
+      "name": "Homestead",
+      "pid": "3",
+      "position": {
+        "x": "668",
+        "y": "773"
+      }
+    },
+    {
+      "text": "The ruined Hamlet appears before you. Destroyed ruins and the bodies of your fellow countrymen come into view, as does the visage of some grisly and dark-bodied creatures. \n\nYou know those faces, and yet decide that today is not the day to become a hero...\n\n(Please enter a direction to continue.)\n\n[[Go North->The Fork?]]\n[[Go East->The Fork?]]\n[[Go South->The Fork?]]\n[[Go West->The Fork?]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "The Fork?",
+          "pid": "7"
+        },
+        {
+          "name": "Go East",
+          "link": "The Fork?",
+          "pid": "7"
+        },
+        {
+          "name": "Go South",
+          "link": "The Fork?",
+          "pid": "7"
+        },
+        {
+          "name": "Go West",
+          "link": "The Fork?",
+          "pid": "7"
+        }
+      ],
+      "name": "Hamlet",
+      "pid": "4",
+      "position": {
+        "x": "1150",
+        "y": "458"
+      }
+    },
+    {
+      "text": "As you step onto the wooden bridge on the right, the gate starts to rise before you.\n\nFrom which out steps a gigantic dragon, with flames dancing around it's maw. A single scale on the beast is the size of your hand, and it's color blazes a red so much more crimson yet still more vibrant then the color of your own blood.\n\nSpeaking of your blood, how would you know the color of such a thing? You've never seen someone bleed in your life, as such is the life of a farmhand, that is unti- oh right, that is until you looked down.\n\nBefore your gaze is a gaping hole where your heart should be. Your hands now covered in the previously unfamiliar substance. The dragon had gone for the kill as soon as it's prey entered it's sight, as this noble brute has no humanesque lunacy in messing with it's food.\n\nAs your body slumps to the ground and the numbness comes racing towards your cold face, the only thing you can see is the blurry vision of the dragon. It stares at you with something that seems like... pity? However, the dragon quickly recovers, and turning it's head towards you, the jaw whispers alight with flame, letting it bellow out one last beautiful sight. A parting gift to you...\n\nAnd roasted dinner for it.\n\n(Please enter a direction to continue.)\n\n[[Go North->EndBad]]\n[[Go East->EndBad]]\n[[Go South->EndBad]]\n[[Go West->EndBad]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go East",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go South",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go West",
+          "link": "EndBad",
+          "pid": "10"
+        }
+      ],
+      "name": "The Right Door",
+      "pid": "5",
+      "position": {
+        "x": "633",
+        "y": "139"
+      }
+    },
+    {
+      "text": "As you approach the left door you feel something start to itch along your arms as soon as you step on it's bridge.\n\nThe itching starts to increase in frequency, and so you start to return in kind. An itch here, a scratch there, nothing is stopping you from getting to that door.\n\nHowever, you only make it partway across the bridge until your hands are unable to keep up. You stop as you realize this itching can't be good. \n\nAs you soon as you stop itching the itch flares across your body, streaks of skin now denegated to be scratched like sandpaper. OH how the itching burns! It burns deep within your skin! \n\nActually, in a brief moment of clairty you realize you aren't just itching, you're actually burning! \n\nThis bridge must be magically protected from unwanted outsiders, Population: You! \n\nYou realize this too late and attempt to jump for the moat but not before the flesh drops from your bone as you outstrech your arm. The spell has taken it's hold, it's too late now. No amount of water could help you.\n\nYou resign yourself to your fate, the last of your thoughts wondering if more could have been done?\n\n(Please enter a direction to continue.)\n\n[[Go North->EndBad]]\n[[Go East->EndBad]]\n[[Go South->EndBad]]\n[[Go West->EndBad]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go East",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go South",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go West",
+          "link": "EndBad",
+          "pid": "10"
+        }
+      ],
+      "name": "The Left Door",
+      "pid": "6",
+      "position": {
+        "x": "362",
+        "y": "134"
+      }
+    },
+    {
+      "text": "You are standing at a fork in the road. In front of you is three ways to go: To the left, soot and ash wafts into your face, as you can see the flames they belong to roar ferociously. The previously quaint little Hamlet is ablaze. \n\nIf you go this way it could take some time for the flames to die down and for any unsaviory characters to disappear, IF they disapppear...\n\nStill, to the right is the foreboding Fortress, and lastly there is the way from whence you came. \n\n\n\n[[Go North->The Fork?]]\n[[Go East->The Fortress]]\n[[Go South->Homestead 2]]\n[[Go West->Hamlet 2]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "The Fork?",
+          "pid": "7"
+        },
+        {
+          "name": "Go East",
+          "link": "The Fortress",
+          "pid": "2"
+        },
+        {
+          "name": "Go South",
+          "link": "Homestead 2",
+          "pid": "9"
+        },
+        {
+          "name": "Go West",
+          "link": "Hamlet 2",
+          "pid": "8"
+        }
+      ],
+      "name": "The Fork?",
+      "pid": "7",
+      "position": {
+        "x": "824",
+        "y": "290"
+      }
+    },
+    {
+      "text": "The ruined Hamlet appears before you. Destroyed ruins and the bodies of your fellow countrymen come into view, as does the visage of some grisly and dark-bodied creatures, again. \n\nThe faces of your fellow deceased villagers play out repeatedly in your mind as you watch one of the animals feast upon it's meal. You decide that today is not the day to become a hero...\n\nThat is until you do! Or at least you want to! \n\nYou've already backed down once... You can't just let it all go away twice! Can you?! \n\nDo you care to proceed forward or do you let sleeping dogs lie?\n\n(Please enter a direction to continue.)\n\n[[Go North->Hamlet 3]]\n[[Go East->The Fork?]]\n[[Go South->Hamlet 3]]\n[[Go West->Hamlet 3]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Hamlet 3",
+          "pid": "11"
+        },
+        {
+          "name": "Go East",
+          "link": "The Fork?",
+          "pid": "7"
+        },
+        {
+          "name": "Go South",
+          "link": "Hamlet 3",
+          "pid": "11"
+        },
+        {
+          "name": "Go West",
+          "link": "Hamlet 3",
+          "pid": "11"
+        }
+      ],
+      "name": "Hamlet 2",
+      "pid": "8",
+      "position": {
+        "x": "1329",
+        "y": "304"
+      }
+    },
+    {
+      "text": "The way back only leads to your small farmstead, surrounded by thick brush and forestry. This is from which your adventure began! Unfortunately, that means the only way you can go is forward.\n\nThat would be if you could... Before you stands a bulwark of a beast blocking your path forward. You recognize the telltale signs from your childhood fairytales. A black slithery creature with indiscernable features that seem to impossibly shift before your very eyes...\n\nA Ghualloc.\n\nWhile you could run, you won't make it very far. \n\nThis does not bode well...\n\n(Please enter a direction to continue.)\n\n[[Go North->EndBad]]\n[[Go East->EndBad]]\n[[Go South->EndBad]]\n[[Go West->EndBad]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go East",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go South",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go West",
+          "link": "EndBad",
+          "pid": "10"
+        }
+      ],
+      "name": "Homestead 2",
+      "pid": "9",
+      "position": {
+        "x": "999",
+        "y": "772"
+      }
+    },
+    {
+      "text": "One way or another, you have met your end.\n\nWith the end of your journey, the world is doomed to persist in a ruined state. Though, perhaps... another adventurer could take up your mantle..?\n\nPerhaps, that other adventurer is... you?\n\nPlease quit and try again, and this time, save the world!\n\n(Sidenote: There is purposely no way to win currently, just so I have fun writing this too as you do playing. All endings end here.)",
+      "name": "EndBad",
+      "pid": "10",
+      "position": {
+        "x": "838",
+        "y": "6"
+      }
+    },
+    {
+      "text": "Despite every voice in your head screaming at you to abandon your fellow peasants to their fate, you still step forward.\n\nAnd step forward you do, charging at the macabre of mugs that turn towards you. Letting out a defiant yell, you will not let these Ghuallocs take the presumably last one of you without a fight. \n\nYou're a citizen of the Armaed Empire after all, and no Armaedi citizen should die without a smile on his face, and with all his regrets on the battlefield. That smile having been earned through one's own strife and hardwork in the battle they die.\n\nUnfortunately for you, you gain nothing special in being an Armaedi citizen either. The beasts quickly get over their shock from a rarely defiant one such as yourself, and soon pile upon you in seconds. All you can see is a mixture of bone and sinew as your try to claw away your attackers to no avail. \n\nAfter all, Armaedi citizen or no, you're only human. And no human can ever hope to match a Ghualloc...\n\n(Please enter a direction to continue.)\n\n[[Go North->EndBad]]\n[[Go East->EndBad]]\n[[Go South->EndBad]]\n[[Go West->EndBad]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go East",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go South",
+          "link": "EndBad",
+          "pid": "10"
+        },
+        {
+          "name": "Go West",
+          "link": "EndBad",
+          "pid": "10"
+        }
+      ],
+      "name": "Hamlet 3",
+      "pid": "11",
+      "position": {
+        "x": "1185",
+        "y": "77"
+      }
+    }
+  ],
+  "name": "Test Story",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "1C52541C-EFF1-46E7-AAE7-EC062E431C82"
+}
